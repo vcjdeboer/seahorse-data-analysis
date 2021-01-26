@@ -5,7 +5,7 @@ Packages needed EBImage, stringr, tidyverse
 please install other packages if needed as well.
 
 ### Tips:
-* input filename of the TIF files is IMPORTANT. The input filename is now set to be for a default Cytation Gen5 file naming convention
+* input filename of the TIF files is important. The input filename is now set to be for a default Cytation Gen5 file naming convention
 That means it should be similar to "Bright Field_D7_1_001.tif"
 More specifically: the second string between underscores is assumed to be the wellname (this is default for Cytation Gen5)
 Even more specifically: the function "str_split" from the stringr package splits up the filename into strings with the
